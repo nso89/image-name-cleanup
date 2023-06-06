@@ -65,4 +65,4 @@ If you need to change the `source` or `destination` folder:
 SOURCE_PARENT = Path.home().joinpath("Downloads")
 DESTINATION_PARENT = Path.home().joinpath("Pictures")
 ```
-When you finish changing the variables, save and close the editor.
+3. When you finish changing the variables, save and close the editor.
