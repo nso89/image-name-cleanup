@@ -49,7 +49,7 @@ James_Kirk,_2371.webp -> 2.webp
 Remove: C:\Users\nso89\Downloads\Captain Kirk
 ```
 
-If you already have a `source` and `destination` folder with the same name, the count contiues from the number of files in the `destination` folder.
+If you already have a `source` and `destination` folder with the same name, the count continues from the number of files in the `destination` folder.
 
 5. When completed, if the `source` folder is empty, it's removed.
 
