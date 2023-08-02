@@ -21,7 +21,7 @@ def main():
 
     try:
         
-        valid_extenstions : List[str] = [".avif", ".bmp", ".jpg", ".jpeg", ".png", ".webp"]
+        valid_extenstions : List[str] = [".avif", ".bmp", ".jpg", ".JPG", ".jpeg", ".png", ".webp"]
  
         for folder in (item for item in SOURCE_PARENT.iterdir() if item.is_dir()):
             destination_child = DESTINATION_PARENT.joinpath(folder.name)
