@@ -34,7 +34,7 @@ def main():
                       item.suffix in valid_extenstions)
 
             for index, source in enumerate(iterable = images, start = current_file_count):
-                destination = Path("".join([str(index), source.suffix]))
+                destination = Path(str(index)).with_suffix(source.suffix)
                 print(f"{source.name} -> {destination.name}")
                 source.rename(destination_child.joinpath(destination))
 
