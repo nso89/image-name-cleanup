@@ -21,7 +21,7 @@ C:\Users\nso89\Downloads\Captain Kirk\James_Kirk,_2371.webp
 
 **Example**:
 ```batch
-C:\Users\nso89\image-cleanup-main\main.py
+C:\Users\nso89\image-cleanup-main
 ```
 
 #### <a name="running-the-script"></a>Running the Script
