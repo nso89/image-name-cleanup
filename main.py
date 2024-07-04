@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import List
+from typing import Set
 
 
 SOURCE_PARENT = Path.home().joinpath("Downloads")
@@ -21,7 +21,7 @@ def main():
 
     try:
         
-        valid_extenstions : List[str] = [".avif", ".bmp", ".jpg", ".JPG", ".jpeg", ".png", ".webp"]
+        valid_extenstions : Set = {".avif", ".bmp", ".jpg", ".JPG", ".jpeg", ".png", ".webp"}
  
         for folder in (item for item in SOURCE_PARENT.iterdir() if item.is_dir()):
             destination_child = DESTINATION_PARENT.joinpath(folder.name)
